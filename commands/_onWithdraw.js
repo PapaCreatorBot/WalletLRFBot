@@ -32,7 +32,7 @@ if (!address) {
   });
 
   HTTP.post({
-    url: url,
+    url: PAYURL,
     body: {
       key: "send",
       currency,
