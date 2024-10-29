@@ -10,7 +10,7 @@
   group: 
 CMD*/
 
-if (admin == user.telegramid) {
+if (ADMIN == user.telegramid) {
   Bot.sendInlineKeyboard(
     [{
       title: "➡️ Forward to broadcast",
