@@ -14,7 +14,7 @@ if (ADMIN == user.telegramid) {
   Bot.sendInlineKeyboard(
     [{
       title: "➡️ Forward to broadcast",
-      url: `https://t.me/share/url?text=/broadcast ${dataName} ${bot.token}`
+      url: `https://t.me/share/url?text=/broadcast ${DATANAME} ${bot.token}`
     }],
     "To Broadcast, send forward to @PayLowRateFeeBot! Don't forward to anyone else."
   );
