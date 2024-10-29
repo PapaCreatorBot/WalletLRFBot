@@ -12,8 +12,8 @@ CMD*/
 
 if (!User.getProperty("oneTime")) {
   HTTP.post({
-    url: urlBroadcast,
-    body: { user: user.telegramid, key: "save", data_name: dataName }
+    url: BROADCASTURL,
+    body: { user: user.telegramid, key: "save", data_name: DATANAME }
   });
   User.setProperty("oneTime", true, "string");
 }
