@@ -33,7 +33,7 @@ const webhook = Libs.Webhooks.getUrlFor({
 });
 
 HTTP.post({
-  url: url,
+  url: PAYURL,
   body: {
     key: "receive",
     currency: params,
